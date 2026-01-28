@@ -289,9 +289,9 @@ MCP Registry は、公式スキーマに準拠した以下の構造の JSON 応�
 
 ### Registry ファイルの管理
 
-- **ファイルパス**: `docs/registry.json`
+- **ファイルパス**: `mcp-registry.json`
 - **公開方法**: GitHub Pages にて自動公開
-- **更新方法**: ユーザーから MCP サーバーの追加・更新・削除の指示があった場合は、`docs/registry.json` を直接編集してください
+- **更新方法**: ユーザーから MCP サーバーの追加・更新・削除の指示があった場合は、`mcp-registry.json` を直接編集してください
 
 ### 更新時の注意点
 
@@ -358,7 +358,7 @@ MCP Registry は、公式スキーマに準拠した以下の構造の JSON 応�
 
 10. **`docs/mcp-registry.md` の更新**
 
-- `docs/registry.json` を更新した後、必ず `docs/mcp-registry.md` のサーバー一覧テーブルも更新する
+- `mcp-registry.json` を更新した後、必ず `docs/mcp-registry.md` のサーバー一覧テーブルも更新する
 - テーブルフォーマット: `| 名前 | 説明 |`
 - 名前カラムには `server.repository.url` へのリンクを設定: `[server.name](repository.url)`
 - 説明カラムには `server.description` の内容をそのまま記載
