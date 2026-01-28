@@ -46,8 +46,6 @@
         },
         "packages": [
           {
-            "registryType": "github",
-            "registryBaseUrl": "https://github.com",
             "identifier": "oraios/serena",
             "runtimeHint": "uvx",
             "runtimeArguments": [
@@ -63,6 +61,11 @@
               }
             ],
             "packageArguments": [
+              {
+                "type": "positional",
+                "value": "serena",
+                "valueHint": "executable"
+              },
               {
                 "type": "positional",
                 "value": "start-mcp-server",
