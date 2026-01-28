@@ -34,9 +34,9 @@
     {
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
-        "name": "ai.oraios/serena",
+        "name": "io.github.oraios/serena",
         "version": "0.1.4",
-        "description": "セマンティックなコード取得・編集機能を提供するパワフルなコーディングエージェントツールキット",
+        "description": "LSPを用いたコード理解・検索・編集を行うローカルMCPサーバー",
         "title": "Serena",
         "icon": "https://avatars.githubusercontent.com/u/181485370?s=200&v=4",
         "websiteUrl": "https://oraios.github.io/serena",
@@ -46,10 +46,8 @@
         },
         "packages": [
           {
-            "registryType": "pypi",
-            "identifier": "serena",
-            "version": "0.1.4",
-            "registryBaseUrl": "https://github.com/oraios/serena",
+            "registryType": "git",
+            "identifier": "https://github.com/oraios/serena",
             "runtimeHint": "uvx",
             "runtimeArguments": [
               {
@@ -61,13 +59,11 @@
             "packageArguments": [
               {
                 "type": "positional",
-                "value": "serena",
-                "valueHint": "executable"
+                "value": "serena"
               },
               {
                 "type": "positional",
-                "value": "start-mcp-server",
-                "valueHint": "command"
+                "value": "start-mcp-server"
               }
             ],
             "transport": {
