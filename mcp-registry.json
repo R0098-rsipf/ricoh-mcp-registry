@@ -49,26 +49,11 @@
             "registryType": "git",
             "identifier": "https://github.com/oraios/serena",
             "runtimeHint": "uvx",
-            "runtimeArguments": [
-              {
-                "type": "named",
-                "name": "--from",
-                "value": "git+https://github.com/oraios/serena"
-              }
-            ],
             "packageArguments": [
-              {
-                "type": "positional",
-                "value": "serena"
-              },
-              {
-                "type": "positional",
-                "value": "start-mcp-server"
-              }
+              { "type": "positional", "value": "serena" },
+              { "type": "positional", "value": "start-mcp-server" }
             ],
-            "transport": {
-              "type": "stdio"
-            }
+            "transport": { "type": "stdio" }
           }
         ]
       },
