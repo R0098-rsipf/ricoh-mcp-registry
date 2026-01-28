@@ -46,11 +46,29 @@
         },
         "packages": [
           {
-            "registryType": "pypi",
-            "registryBaseUrl": "https://pypi.org",
-            "identifier": "serena",
-            "version": "0.9.1",
+            "registryType": "github",
+            "registryBaseUrl": "https://github.com",
+            "identifier": "oraios/serena",
             "runtimeHint": "uvx",
+            "runtimeArguments": [
+              {
+                "type": "positional",
+                "value": "--from",
+                "valueHint": "from-flag"
+              },
+              {
+                "type": "positional",
+                "value": "git+https://github.com/oraios/serena",
+                "valueHint": "package-source"
+              }
+            ],
+            "packageArguments": [
+              {
+                "type": "positional",
+                "value": "start-mcp-server",
+                "valueHint": "command"
+              }
+            ],
             "transport": {
               "type": "stdio"
             }
