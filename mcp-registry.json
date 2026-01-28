@@ -49,7 +49,7 @@
             "registryType": "pypi",
             "registryBaseUrl": "https://pypi.org",
             "identifier": "serena",
-            "version": "0.1.4",
+            "version": "0.9.1",
             "runtimeHint": "uvx",
             "transport": {
               "type": "stdio"
