@@ -370,8 +370,8 @@ MCP Registry の更新作業が完了した後、追加された MCP サーバ�
 
 **実行手順**:
 
-1. `.github/prompts/mcp-security-servey.prompt.md` に記載された指示に従う
+1. `.github/prompts/mcp-security-survey.prompt.md` に記載された指示に従う
 2. 追加された MCP サーバー名を入力として使用
 3. セキュリティサーベイを実施し、PR Template を埋めた markdown file を repository root に生成し、保存する
 
-詳細な指示については、`.github/prompts/mcp-security-servey.prompt.md` を参照してください。
+詳細な指示については、`.github/prompts/mcp-security-survey.prompt.md` を参照してください。
