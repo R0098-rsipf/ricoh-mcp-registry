@@ -10,7 +10,7 @@ r0098 の Organization で利用する MCP サーバーを管理するための 
 
 ```
 .
-├── .github/
+├── .github/j
 │   ├── prompts/
 │   │   └── mcp-registry.prompt.md  # Copilot 用プロンプト
 │   └── workflows/
